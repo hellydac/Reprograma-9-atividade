@@ -1,10 +1,10 @@
-#Aula 9 - Projeto Lista de Contatinhos :telephone_receiver:
+# Aula 9 - Projeto Lista de Contatinhos :telephone_receiver:
 
-##Passo-a-passo
+## Passo-a-passo
 
 Servidor criado do zero, usando a arquitetura MVC e convertendo as demandas de negócio em endpoints, com as lógicas necessárias para cada rota.
 
-Demandas de negócio
+**Demandas de negócio**
 - Rota principal pra visualizar a apresentação do projeto
 - Visualizar todos os contatinhos
 - Visualizar os contatinhos por nome
@@ -12,9 +12,9 @@ Demandas de negócio
 - Adicionar novo contatinho
 - Deletar contatinhos
 
-##Arquitetura MVC
+## Arquitetura MVC
 
-Pasta SRC
+**Pasta SRC**
 - Controllers
 - Models
 - Routes
@@ -22,13 +22,13 @@ Pasta SRC
 
 * server.js 
 
-##Starting
+## Starting
 
-npm init - baixa package JSON
-npm i express - instala o express
-.gitignore - inserir a pasta node_modules
-npm i nodemon - instala o nodemon
-Alterar o start no package.json para "nodemon server.js"
+- npm init - baixa package JSON
+- npm i express - instala o express
+- .gitignore - inserir a pasta node_modules
+- npm i nodemon - instala o nodemon
+- Alterar o start no package.json para "nodemon server.js"
 
 
 
